@@ -1,9 +1,8 @@
-Ecoleta is a project made at Next Level Week, video classes taught by the Rocketseat team.
+Ecoleta is a project made during Next Level Week, the video classes were taught by the Rocketseat team.
 
-In this classes was possible to learn about JavaScrip, HTML, CSS, and also SQL. 
+In this classes it was possible to learn about JavaScrip, HTML, CSS, and also SQL. 
 
-This project is the result of this lessons.
+The project is the result of this lessons.
 
-Ecoleta is, basically, a website to people find places near them to discart recyclable materials. 
-Also the website allows people register new places to discart recyclable materials, and at this page
-the person could select what kind of material could be discart.
+Ecoleta is a website that aims to direct people that want to destinate their recyclable trash to its proper destination. 
+Also, the website allows people register new places to discard recyclable materials and specify what kind of material could be discarded.
