@@ -1,0 +1,51 @@
+
+@media (max-width: 900px) { /*enquanto a tela for menor que 900px ela recebe essas regras*/
+    #page-home {
+        background-position-x: 70vw;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        position: absolute;
+        bottom: 48px;
+        left: 50%; /*leva o texto pra metade da tela*/
+        transform: translateX(-50%); /*pega o ponto medio e coloca em metade da tela*/
+
+    }
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width: 1700px) {/*de 1700 pra cima aplica essas configurações*/
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-height: 760px) { /*altura entra 0 e 760px*/
+    #page-home {
+        background-position-y: 100px; /*deixa a imagem fixa, antes ela acompanhava o bottom*/
+    }
+}
